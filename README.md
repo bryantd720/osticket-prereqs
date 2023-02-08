@@ -104,3 +104,5 @@ http://localhost/osTicket/
 (Notes)
 - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 - End Users osTicket URL: http://localhost/osTicket/ 
+
+<h2>Example Screenshots</h2>
