@@ -114,7 +114,7 @@ http://localhost/osTicket/
 <h2>Example Screenshots</h2>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XGj6EhI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 This is the virtual machine generated in Azure.
