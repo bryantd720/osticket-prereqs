@@ -28,17 +28,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
 - Name: Vm-osticket
-- Username: labuser (for example/whatever you chose)
-- Password: osTicketPassword1! (Example Password)
+- Username: labuser (or anything you want)
+- Password: osTicketPassword1! (example password)
 
-- Install / Enable IIS in Windows WITH CGI
+Install / Enable IIS in Windows WITH CGI
 - World Wide Web Services -> Application Development Features -> [X] CGI
-- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-- Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
-- Create the directory C:\PHP
-- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-- Download and install VC_redist.x86.exe.
-- Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+Download and install VC_redist.x86.exe.
+
+Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 - Typical Setup ->
 - Launch Configuration Wizard (after install) ->
 - Standard Configuration ->
@@ -108,9 +114,9 @@ http://localhost/osTicket/
 <h2>Example Screenshots</h2>
 
 <p>
-<img src="url" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p?
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
-
+This is the virtual machine generated in Azure.
 </p>
 <br />
