@@ -106,3 +106,11 @@ http://localhost/osTicket/
 - End Users osTicket URL: http://localhost/osTicket/ 
 
 <h2>Example Screenshots</h2>
+
+<p>
+<img src="url" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p?
+<p>
+
+</p>
+<br />
