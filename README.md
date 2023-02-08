@@ -120,3 +120,30 @@ http://localhost/osTicket/
 This is the virtual machine generated in Azure.
 </p>
 <br />
+
+
+<p>
+<img src="https://i.imgur.com/oHQ3HTg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configuring PHP within Internet Information Services via the VM.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/0M7aaid.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Completing and diplaying IIS setup of the osTicket website.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/UhRivlH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Setup remaining admin information and configuring of MySQL settings on website installation page.
+</p>
+<br />
