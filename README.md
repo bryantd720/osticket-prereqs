@@ -30,7 +30,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Name: vm-osticket
 - Username: labuser (or anything you want)
 - Password: osTicketPassword1! (example password)
-- Open provided link (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) within VM's internet browser. Every step after this will be executed on the Virtual Machine (Windows) 
+- Login to VM with Remote Desktop Client (use VM's Public IP address creted in Azure portal)
+- Open provided link (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) within VM's internet browser. Every step after this will be executed on the Virtual Machine (Windows). All of the files in the link will be required 
 
 Install / Enable IIS with CGI
 - World Wide Web Services -> Application Development Features -> [X] CGI (found in Control Panel/Programs)
@@ -46,12 +47,12 @@ Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents int
 Download and install VC_redist.x86.exe.
 
 Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) 
-- Typical Setup ->
-- Launch Configuration Wizard (after install) ->
-- Standard Configuration ->
-- Password1
+- Typical Setup
+- Launch Configuration Wizard (after install)
+- Standard Configuration
+- Use Password1
 
-Open IIS as an Admin
+Open IIS as an administrator
 
 Register PHP from within IIS
 
@@ -59,8 +60,8 @@ Reload IIS (Open IIS, Stop and Start the server)
 
 Install osTicket v1.15.8
 - Download osTicket from the Installation Files Folder
-- Extract and copy “upload” folder to c:\inetpub\wwwroot
-- Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
+- Extract and copy "upload" folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, rename "upload" folder to "osTicket"
 
 Reload IIS (Open IIS, Stop and Start the server)
 
@@ -106,7 +107,7 @@ http://localhost/osTicket/
 
 (Clean up)
 - Delete: C:\inetpub\wwwroot\osTicket\setup
-- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Set Permissions to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 (Notes)
 - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
@@ -118,7 +119,7 @@ http://localhost/osTicket/
 <img src="https://i.imgur.com/XGj6EhI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is the virtual machine generated in Azure.
+This is the virtual machine generated in Azure portal.
 </p>
 <br />
 
@@ -127,7 +128,7 @@ This is the virtual machine generated in Azure.
 <img src="https://i.imgur.com/oHQ3HTg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configuring PHP within Internet Information Services via the VM.
+Inside of the Virtual Machine, configuring PHP within Internet Information Services.
 </p>
 <br />
 
@@ -136,7 +137,7 @@ Configuring PHP within Internet Information Services via the VM.
 <img src="https://i.imgur.com/0M7aaid.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Completing and diplaying IIS setup of the osTicket website.
+Completing and diplaying IIS setup of the osTicket portal.
 </p>
 <br />
 
@@ -145,6 +146,6 @@ Completing and diplaying IIS setup of the osTicket website.
 <img src="https://i.imgur.com/UhRivlH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Setup remaining admin information and configuring of MySQL settings on website installation page.
+Setup remaining admin information and configuring of MySQL settings on portal's installation page.
 </p>
 <br />
